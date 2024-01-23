@@ -1,6 +1,6 @@
 {
-    "name": "™°‌ 🫧 ☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆.",
-    "logo": "https://telegra.ph/file/d557c20c6054491d2c20a.jpg",
+    "name": ",⚡Devil Op⚡🫧",
+    "logo": "https://telegra.ph/file/bddcebd34ec4bb1a572d3.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/Moonshining6/ALSPAM",
+    "repository": "https://github.com/Samyak1222/Spambot02",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
