@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» __🫧 🇲𝐎𝐎𝐍 𝐢𝐬 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐛𝐫𝐢𝐧𝐠 𝐂𝐲𝐜𝐥𝐨𝐧𝐞⚡️⛈__")
+        altron = await e.reply(f"» ⚡TURBO A GAYA AB G FADEGA⚡🫧")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"🫧 🇲𝐎𝐎𝐍 𝐢𝐬 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐛𝐫𝐢𝐧𝐠 𝐂𝐲𝐜𝐥𝐨𝐧𝐞⚡️⛈\n» `{mp} 𝙼𝚂`")
+        await altron.edit(f"⚡TURBO A GAYA AB G FADEGA⚡🫧\n» `{mp} 𝙼𝚂`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`🥀𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 MOON 𝙱𝙾𝚃𝚂🥀...`")
+        await e.reply(f"`🥀𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 DEVIL 𝙱𝙾𝚃𝚂🥀...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -123,7 +123,7 @@ async def addsudo(event):
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁**: `{target}`\n» 💖𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 MOON 𝙱𝙾𝚃𝚂💖...`")
+            await ok.edit(f"» **𝙽𝙴𝚆 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁**: `{target}`\n» 💖𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 DEVIL 𝙱𝙾𝚃𝚂💖...`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
