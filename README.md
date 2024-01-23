@@ -24,6 +24,6 @@
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
-<a href="https://t.me/+PfRardqZ41U1MTg1"><img src="https://t.me/turbospamtest"></a>
+<a href="https://t.me/turbospamtest"><img src="https://t.me/turbospamtest"></a>
 
 </details>
